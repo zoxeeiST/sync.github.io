@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNC - File Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SYNC - File Sharing</h1>
+
+        <div class="user-id-section">
+            <label>Your Unique ID: <span id="userIdDisplay"></span></label>
+        </div>
+
+        <div class="upload-section">
+            <input type="file" id="fileInput" />
+            <input type="text" id="receiverId" placeholder="Enter Receiver's Unique ID" />
+            <button id="sendButton">Send File</button>
+        </div>
+
+        <div class="receive-section">
+            <button id="checkButton">Check for Files</button>
+        </div>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
